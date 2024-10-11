@@ -5,27 +5,27 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("ilk sayı");
-        double sayı1 = scan.nextDouble();
+        double number1 = scan.nextDouble();
         Scanner scan2 = new Scanner(System.in);
         System.out.println("ikinci sayı");
-        double sayı2 = scan2.nextDouble();
+        double number2 = scan2.nextDouble();
         Scanner scan3 = new Scanner(System.in);
         System.out.println("Yapmak istediğiniz işlemi seçiniz");
         System.out.println("1-toplama \n2-çıkartma \n3-çarpma \n4-bölme ");
-        int işlem = scan3.nextInt();
+        int operation = scan3.nextInt();
 
 
-       if (işlem==1){
-            System.out.println(sayı1+sayı2);
+       if (operation==1){
+            System.out.println(number1+number2);
         }
-        else if (işlem==2){
-            System.out.println(sayı1-sayı2);
+        else if (operation==2){
+            System.out.println(number1-number2);
         }
-        else if (işlem==3){
-            System.out.println(sayı1*sayı2);
+        else if (operation==3){
+            System.out.println(number1*number2);
         }
-        else if (işlem==4){
-            System.out.println(sayı1/sayı2);
+        else if (operation==4){
+            System.out.println(number1/number2);
         }else {
            System.out.println("Geçersiz işlem");
        }
